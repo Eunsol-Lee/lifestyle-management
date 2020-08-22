@@ -1,10 +1,6 @@
 import { NestFactory } from '@nestjs/core';
 import { AppModule } from './app.module';
 
-// It loads .env
-import { config } from 'dotenv';
-config();
-
 // console.log(process.env.USERNAME);
 // console.log(process.env.PWD);
 
